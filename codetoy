@@ -1,0 +1,13 @@
+Nome = input("Digite o seu nome: ")
+Profissao = input("Informe a profissão: ")
+PrimeiroAdjetivo = input("Qual o Primeiro Adjetivo?: ")
+SegundoAdjetivo = input("Qual o Segundo Adjetivo?: ")
+Primeiracomida = input("Informe a Primeira comida: ")
+SegundaComida= input("Informe a Segunda comida: ")
+Sentimento = input("O que ele sentiu?: ")
+
+print(f"{Nome} começou hoje o seu primeiro curso na Generation Brasil.")
+print("Esta cursando a formação em", f"{Profissao}")
+print("Achou a sua turma muito", f"{PrimeiroAdjetivo}" , "mas o instrutor era, no mínimo," f"{SegundoAdjetivo}")
+print("No almoço comeu:,", f"{Primeiracomida}", "e", f"{SegundaComida}" , "enquanto revisava as suas anotações.")
+print("Ao final do dia, sente-se", f"{Sentimento}" , ", mas tem a determinação de concluir a jornada.")

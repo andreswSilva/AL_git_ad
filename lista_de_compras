@@ -1,0 +1,11 @@
+lista = [
+"Pão",
+"Leite",
+"Ovos",
+]
+
+print(lista)
+
+lista.append(input("Obs, faltou: "))
+
+print(lista)
